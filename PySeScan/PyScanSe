@@ -1,0 +1,36 @@
+#!/usr/bin/python      
+
+from errno import ECONNREFUSED
+from functools import partial
+from multiprocessing import Pool
+import socket
+import os
+import sys
+
+
+while True:
+
+	print(" ----- MENU ----------------------- ")
+	print("1. Port scanner ")
+	print("2. Send UDP packages")
+	print("3. Send TCP short message // as bytes ")
+	print("4. Send TCP package from file // as bytes")
+	print("5. Send TCP HTTP GET")
+	print("-------------------------------------")
+	print("6. FTP BruteForce using file // user & pass ")
+	print("-------------------------------------")
+	print("0. Exit")
+	print("-------------------------------------")
+	reader = raw_input("> ")
+
+	if reader == "2":
+		import UDP_echo
+		break
+	if reader == "1":
+		from portScanner import main
+		main(host)
+		p = subprocess.Popen(main(host))
+		p.wait()
+		break
+	if reader == "0":
+		exit()

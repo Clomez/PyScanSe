@@ -1,0 +1,30 @@
+-------------------------------------
+oooooo HELP oooooo
+-------------------------------------
+ PySCanSe - Python Scanner Sender
+-------------------------------------
+
+REQ:
+Python 2.7
+
+LAUNCH USING ./PyScanSe
+
+1. SCAN PORTS IN GIVEN HOST USING PING
+
+2. SEND SEND UDP PACKAGE TO GIVEN PORT AND HOST
+
+3. SEND TCP PACKAGE TO HOST, GIVE HOST, MESSAGE AS INPUT AND PORT
+
+4. SEND TCP PACKAGE TO HOST, FROM FILE, SPECIFY FILE TO BE READ AND SEND TO GIVEN PORT. SEND PACKAGE CAN BE ALMOST ANY TYPE
+
+5. SIMPLY SENDS HTTP GET TO GIVEN HOST
+
+6. SCAN PORTS FOR MULTIPLE HOSTS SEE hostList FILE FOR EXAMPLE
+
+
+// 	ERROR LAUCHING
+ 	"chmod +x PyScanSe"
+	"pwd" check folder
+
+---- TODO ------
+Send to range of pings with scanner
