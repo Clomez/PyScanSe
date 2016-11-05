@@ -2,10 +2,13 @@
 LAUNCH USING ./PyScanSe.py
 
 ------------------------------
- PyScanSe -- ver0.6
+ PyScanSe -- ver0.7
 ------------------------------
-   MENU 
-1. Port scanner 
+
+REQ:
+Python 2.7
+
+1. Port scanner
 2. Send UDP packages
 3. Send TCP short message
 4. Send TCP package from file
@@ -13,26 +16,18 @@ LAUNCH USING ./PyScanSe.py
 6. Port scanner // use target list
 7. FTP BruteForce using file // user & pass 
 
-
-REQ:
-Python
-
-1. SCAN PORTS IN GIVEN HOST USING PING
-2. SEND SEND UDP PACKAGE TO GIVEN PORT AND HOST
-3. SEND TCP PACKAGE TO HOST, GIVE HOST, MESSAGE AS INPUT AND PORT
-4. SEND TCP PACKAGE TO HOST, FROM FILE, SPECIFY FILE TO BE READ AND SEND TO GIVEN PORT
-5. SIMPLY SENDS HTTP GET TO GIVEN HOST
-6. SCAN MULTIPLE HOSTS USING INPUT FILE
-
 // 	ERROR LAUCHING
- 	"chmod +x PyScanSe"
-	"pwd" check folder
+ - "chmod +x PyScanSe"
+ - "pwd" check folder
 
 ---- TODO ------
 
 Network discovery tools
+Make port scanner faster
 
 --- Updates ------
+- 0.7
+ - More bugfixes
 - 0.6
  - bugfixes
 
