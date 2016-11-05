@@ -12,6 +12,7 @@ import PyFTP
 import TCP_echofile
 import TCP_echoHTTP
 import portScannerList
+import TCP_echo
 
 
 def main2():

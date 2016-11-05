@@ -42,5 +42,5 @@ def mainTCP_m():
 		print ("closing socket")
 		sock.close()
 if __name__ == "__main__":
-	main()
+	mainTCP_m()
 
