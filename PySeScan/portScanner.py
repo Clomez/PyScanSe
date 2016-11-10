@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 from errno import ECONNREFUSED
@@ -11,11 +11,11 @@ import sys
 
 
 def ping(host, port):
-	#kokeile socket
+	#Try Socket
 	try:
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		s.connect((host, port))
-		print(str(port) + " Open")
+		print(str(port) + " Port open")
 		return port
 	except socket.error as err:
 		if err.errno == ECONNREFUSED:
@@ -27,9 +27,11 @@ def scan_ports(host, port):
 
 def main():
 
+
+	# Inputs for scanneR
+
 	reader = raw_input("Give address: ")
 	host = reader
-	#reader = raw_input("Give Port: ")
 	portin = 2
 	port = int(portin)
 	BUFFER_SIZE = 1024
