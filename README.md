@@ -26,6 +26,8 @@ Network discovery tools
 Make port scanner faster
 
 --- Updates ------
+- 0.8
+ - More Bugfix / fixed minor mistakes in tools
 - 0.7
  - More bugfixes
 - 0.6
